@@ -1,1 +1,148 @@
-@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap);@import url(https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap);*{padding:0;margin:0;box-sizing:border-box}hr{width:50%;margin:0 auto;border:1px solid #000}.parallax{background-image:url(images/bgImg.jpg);height:100%;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}.navbar-nav li:hover .dropdown-menu{display:block}.dropdown-menu>li>a:hover:after{text-decoration:underline;transform:rotate(-90deg)}.dropdown-toggle::after{display:none}.dropdown-menu{background-color:#343a40}.dropdown-item{color:beige}.navbar-brand{font-family:"Josefin Sans",sans-serif;font-size:1.1rem;text-transform:uppercase}.nav-item{font-family:"PT Sans Caption",sans-serif;font-size:1rem;text-transform:uppercase}.carousel-item{height:570px;padding:0}.carousel-image-1{background:url(images/2015-Volkswagen-Scirocco-R-001-1600.jpg);background-size:cover;background-repeat:no-repeat}.carousel-image-2{background:url(images/t8fk6ye6njy11.jpg);background-size:cover;background-repeat:no-repeat}.carousel-image-3{background:url(images/carpixel.net-2017-seat-leon-cupra-r-74939-hd.jpg);background-size:cover;background-repeat:no-repeat}.display-3{font-family:"Josefin Sans",sans-serif;font-size:2.4rem;margin-bottom:2rem}.carousel-item p{padding-top:2rem;font-size:2rem}.carousel-control-next,.carousel-control-prev{z-index:9999}.carousel-caption{background-color:#fff;opacity:.9;color:#000;width:40%;height:100%;left:0;padding:10rem 2rem 1rem 10rem;bottom:0}.fas{font-size:3rem;color:#000}.btn{margin-top:2rem}.fade-in-bck{-webkit-animation:fade-in-bck 3s cubic-bezier(.39,.575,.565,1) both;animation:fade-in-bck 3s cubic-bezier(.39,.575,.565,1) both}@-webkit-keyframes fade-in-bck{0%{-webkit-transform:translateZ(80px);transform:translateZ(80px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes fade-in-bck{0%{-webkit-transform:translateZ(80px);transform:translateZ(80px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #000
+}
+
+.parallax {
+    background-image: url(images/bgImg.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.navbar-nav li:hover .dropdown-menu {
+    display: block
+}
+
+.dropdown-menu>li>a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg)
+}
+
+.dropdown-toggle::after {
+    display: none
+}
+
+.dropdown-menu {
+    background-color: #343a40
+}
+
+.dropdown-item {
+    color: beige
+}
+
+.navbar-brand {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.1rem;
+    text-transform: uppercase
+}
+
+.nav-item {
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase
+}
+
+.carousel-item {
+    height: 570px;
+    padding: 0
+}
+
+.carousel-image-1 {
+    background: url(images/2015-Volkswagen-Scirocco-R-001-1600.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.carousel-image-2 {
+    background: url(images/t8fk6ye6njy11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.carousel-image-3 {
+    background: url(images/carpixel.net-2017-seat-leon-cupra-r-74939-hd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.display-3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 2rem
+}
+
+.carousel-item p {
+    padding-top: 2rem;
+    font-size: 2rem
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    z-index: 9999
+}
+
+.carousel-caption {
+    background-color: #fff;
+    opacity: .9;
+    color: #000;
+    width: 40%;
+    height: 100%;
+    left: 0;
+    padding: 10rem 2rem 1rem 10rem;
+    bottom: 0
+}
+
+.fas {
+    font-size: 3rem;
+    color: #000
+}
+
+.btn {
+    margin-top: 2rem
+}
+
+.fade-in-bck {
+    -webkit-animation: fade-in-bck 3s cubic-bezier(.39, .575, .565, 1) both;
+    animation: fade-in-bck 3s cubic-bezier(.39, .575, .565, 1) both
+}
+
+@-webkit-keyframes fade-in-bck {
+    0% {
+        -webkit-transform: translateZ(80px);
+        transform: translateZ(80px);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1
+    }
+}
+
+@keyframes fade-in-bck {
+    0% {
+        -webkit-transform: translateZ(80px);
+        transform: translateZ(80px);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1
+    }
+}
